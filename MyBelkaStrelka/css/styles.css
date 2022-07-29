@@ -1,0 +1,48 @@
+.link[href]{
+    color:red;
+    text-decoration: double;
+    text-decoration-color: bisque;
+}
+a#toSecond {
+    color: #005baa;
+    text-decoration-color: #005baa;
+}
+a#toFirst {
+    color: rgba(174,230,49,0.74);
+    text-decoration-color: rgba(174,230,49,0.74);
+}
+h1#diary1 {
+    color: rgba(65,21,6,0.74);
+    font-weight: 600;
+}
+h1#diary2 {
+    color: rgba(230,132,133,0.74);
+    font-weight: 600;
+}
+.select {
+    display: inline-block;
+    vertical-align: top;
+    color: #005baa;
+    text-decoration: none;
+    font-weight: 600;
+}
+.flexible__content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.flexible__items{
+    height: 400px;
+    width: 550px;
+    background-color: rgba(65,10,29,0.74);
+    color: gold;
+    flex-direction: row;
+    gap: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: stretch;
+    text-align: left;
+    padding: 100px;
+}

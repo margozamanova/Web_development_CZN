@@ -1,0 +1,19 @@
+.flexible__content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    height: 50vh;
+    align-items: stretch;
+}
+.flexible__items{
+    min-height: 100px;
+    min-width: 150px;
+    background-color: rebeccapurple;
+}
+.flexible__items:nth-child(5) {
+    align-self: center;
+    order: -1;
+}
