@@ -545,8 +545,12 @@ th {
     list-style: none;
     color: #888888;
 }
-.footer-submenu li {
-    margin-bottom: 20px;
+.footer-submenu li a {
+    margin-bottom: 30px;
+    color: #888888;
+    text-decoration: none;
+    line-height: 30px;
+
 }
 .footer-menu li {
     width: 180px;
