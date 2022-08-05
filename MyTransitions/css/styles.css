@@ -1,0 +1,446 @@
+h1{
+    padding-left: 30px;
+
+}
+h2{
+    padding-left: 30px;
+}
+h3{
+    color: #131313;
+    font-size: 24px;
+    padding-left: 30px;
+}
+span{
+    color: darkslategrey;
+    font-size: 16px;
+}
+.basic, .delay, .input-focus, .trans-otherCss {
+    width: 1280px;
+    height: auto;
+    border: 1px dotted greenyellow;
+    background-color: lightcyan;
+    margin: 20px;
+}
+.notes, .stepped-stripes, .bezie-curves, .indicator{
+    width: 1280px;
+    height: auto;
+    border: 1px dotted greenyellow;
+    background-color: lightcyan;
+    margin: 20px;
+}
+.animated-shadows, .submenu{
+    width: 1280px;
+    height: auto;
+    border: 1px dotted greenyellow;
+    background-color: lightcyan;
+    margin: 20px;
+}
+.container1 {
+    margin: 20px;
+    border: 1px dashed darkslategrey;
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+}
+.block1{
+    border-radius: 25px;
+    border: 2px solid indianred;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+.block1:hover{
+    background-color: palevioletred;
+}
+.block2{
+    border: 2px solid indianred;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    transition-property: background-color, color;
+    transition-duration: 2s;
+    text-align: center;
+}
+.block2:hover{
+    background-color: palevioletred;
+    color: pink;
+}
+.block3{
+    border: 2px solid indianred;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    transition-property: background-color, width;
+    transition-duration: 2s;
+
+}
+.block3:hover{
+    background-color: palevioletred;
+    width: 1000px;
+}
+.block4{
+    border: 2px solid indianred;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    font-size: 12px;
+    text-align: center;
+    transition-property: background-color, width, color, font-size;
+    transition-duration: 2s;
+
+}
+.block4:hover{
+    background-color: palevioletred;
+    width: 1000px;
+    font-size: 30px;
+    color: pink;
+}
+.block5{
+    border: 2px solid indianred;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    transition-property: width, margin-left, background-color;
+    transition-duration: 2s;
+
+}
+.block5:hover{
+    background-color: palevioletred;
+    width: 1000px;
+    margin-left: 100px;
+}
+.block6{
+    border: 2px solid indianred;
+    border-radius: 25px;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    line-height: 70px;
+    text-align: center;
+    text-indent: 1500px;
+    transition-property: text-indent, color, font-weight, font-size, background-color;
+    transition-duration: 5s;
+    white-space: nowrap;
+}
+.block6:hover{
+    text-indent: 0px;
+    color: yellow;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: hotpink;
+}
+.block7{
+    border: 2px solid indianred;
+    border-radius: 25px;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    transition-property: background-color, width;
+    transition-delay: 3s;
+    transition-duration: 2s;
+
+}
+.block7:hover {
+    background-color: darkviolet;
+    width: 1000px;
+}
+input{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    transition-property: width, border, box-shadow;
+    transition-duration: 2s;
+    border: 1px solid grey;
+}
+input:focus{
+    width: 400px;
+    border: 3px solid darkslategrey;
+    box-shadow: 0 0 5px deeppink;
+}
+.container2{
+    margin: 20px;
+    border: 1px dashed darkslategrey;
+    height: auto;
+    background-color: lightgoldenrodyellow;
+}
+.block9 {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: auto;
+    border: 2px solid mediumspringgreen;
+    align-content: space-evenly;
+    margin: 20px;
+}
+.child9{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border: 1px dotted orangered;
+}
+.block9 .child9{
+    margin: 20px;
+    transition-property: width, border;
+    transition-duration: 5s;
+}
+
+.block9:hover .child9 {
+    width: 1000px;
+    border: 3px solid darkred;
+}
+
+.block10 {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: auto;
+    border: 2px solid mediumspringgreen;
+    align-content: space-evenly;
+    margin: 20px;
+}
+.child10{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border: 1px dotted orangered;
+    transition-property: width, border;
+    transition-duration: 5s;
+}
+.child10:hover +div   {
+    width: 1000px;
+    border: 1px solid darkred;
+}
+
+.block11 {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: auto;
+    border: 2px solid mediumspringgreen;
+    align-content: space-evenly;
+    margin: 20px;
+}
+.child11{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border: 1px dotted orangered;
+    transition-property: width, border;
+    transition-duration: 5s;
+}
+.child11:hover ~ div {
+    width: 1000px;
+    border: 3px solid darkred;
+}
+.block12 {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: auto;
+    border: 2px solid mediumspringgreen;
+    align-content: space-evenly;
+    margin: 20px;
+}
+.child12{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border: 1px dotted orangered;
+    transition-property: width, border;
+    transition-duration: 5s;
+}
+.child12:hover +div +div {
+    width: 1000px;
+    border: 3px solid darkred;
+}
+.block13 {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: auto;
+    border: 2px solid mediumspringgreen;
+    align-content: space-evenly;
+    margin: 20px;
+}
+.child13{
+    margin: 20px;
+    width: 400px;
+    height: 30px;
+    border: 1px solid orangered;
+    transition-property: all;
+    transition-duration: 5s;
+    text-align: center;
+    line-height: 30px;
+}
+.child13a {
+    margin-top: 20px;
+    margin-left: -800px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    border: 3px solid orangered;
+    background-color: red;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    line-height: 30px;
+}
+.child13:hover + .child13a {
+    margin-left: 150px;
+    border: 1px solid darkred;
+}
+.block14 {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: auto;
+    border: 2px solid mediumspringgreen;
+    align-content: space-evenly;
+    margin: 20px;
+}
+.child14{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid orangered;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: steps(5);
+    text-align: center;
+    line-height: 30px;
+}
+.child14a{
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid orangered;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: steps(7);
+    text-align: center;
+    line-height: 30px;
+}
+.block14:hover div{
+    width: 1000px;
+}
+.block15{
+    border-radius: 25px;
+    border: 2px solid indianred;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+    transition-property: width;
+    transition-timing-function: cubic-bezier(.16,1.39,.77,-0.28);
+    transition-duration: 5s;
+}
+.block15:hover{
+    width: 1000px;
+}
+.block16{
+    border-radius: 25px;
+    border: 2px solid indianred;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+.child16{
+    background-color: indianred;
+    width: 0px;
+    border-radius: 25px;
+    height: 100px;
+    transition-property: width;
+    transition-timing-function: linear;
+    transition-duration: 5s;
+}
+.block16:hover .child16{
+    width: 500px;
+}
+.block17{
+    border-radius: 25px;
+    border: 2px solid indianred;
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+.child17{
+    background-color: indianred;
+    width: 0px;
+    border-radius: 25px;
+    height: 100px;
+    transition-property: width;
+    transition-timing-function: steps(5);
+    transition-duration: 5s;
+}
+.block17:hover .child17{
+    width: 500px;
+}
+.container3{
+    margin: 20px;
+    border: 1px dashed darkslategrey;
+    height: 300px;
+    background-color: lightgoldenrodyellow;
+}
+.block18 {
+    display: block;
+    width: 1200px;
+    height: 250px;
+    border: 2px solid mediumspringgreen;
+    justify-content: flex-start;
+    margin: 20px;
+}
+.box18{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 350px;
+    width: 200px;
+    height: 30px;
+    border: 2px solid orangered;
+    border-radius: 25px;
+}
+.child18a{
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 450px;
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: darkred;
+}
+.child18b{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: darkred;
+}
+.box18 .child18{
+    transition-property: margin-top, margin-left;
+    transition-timing-function: linear;
+    transition-duration: 5s;
+}
+
+.box18:hover ~ div {
+    margin-top: 20px;
+    margin-left: 450px;
+}
