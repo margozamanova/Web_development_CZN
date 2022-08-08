@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.block1{
+    width: 450px;
+    min-height: 1200px;
+    border: 2px solid lawngreen;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 45px;
+}
+p{
+    font-size: 18px;
+    line-height: 35px;
+    font-family: "Arial", sans-serif;
+    text-align: justify;
+    margin: 10px;
+    text-indent: 20px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+}
