@@ -300,6 +300,8 @@ input:focus{
     color: yellow;
     font-weight: bold;
     line-height: 30px;
+    transition-property: all;
+    transition-duration: 5s;
 }
 .child13:hover + .child13a {
     margin-left: 150px;
@@ -424,6 +426,9 @@ input:focus{
     height: 30px;
     border-radius: 25px;
     background-color: darkred;
+    transition-property: margin-top, margin-left;
+    transition-timing-function: linear;
+    transition-duration: 5s;
 }
 .child18b{
     position: absolute;
@@ -433,8 +438,6 @@ input:focus{
     height: 30px;
     border-radius: 25px;
     background-color: darkred;
-}
-.box18 .child18{
     transition-property: margin-top, margin-left;
     transition-timing-function: linear;
     transition-duration: 5s;
