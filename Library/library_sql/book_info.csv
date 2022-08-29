@@ -1,0 +1,21 @@
+book_ISBN,book_name,book_authors,book_pages,book_year,book_status,userID,book_given,book_back
+39323146,"Прикладной анализ текстовых данных на Python","Бенджамин Бенгфорт, Ребекка Билбро, Тони Охеда",368,2017,available,NULL,NULL,NULL
+90707149,"Программист-прагматик. Путь от подмастерья к мастеру","Э. Хант, Д. Томас",370,2009,available,NULL,NULL,NULL
+81200622,"Структуры данных и алгоритмы Java","Роберт Лафоре",703,2013,available,NULL,NULL,NULL
+54356317,"Python. Экспресс-курс","Наоми Седер",480,2019,available,NULL,NULL,NULL
+73940755,"Первые 20 часов. Как быстро научиться... чему угодно","Джош Кауфман",384,2019,available,NULL,NULL,NULL
+47853137,"Секреты JavaScript ниндзя","Рейзиг Джон, Бибо Бэер",207,2016,available,NULL,NULL,NULL
+45195315,"Linux глазами хакера","Михаил Фленов",418,2019,available,NULL,NULL,NULL
+73396809,"PHP. Рецепты программирования","Дэвид Скляр, Адам Трахтенберг",785,2016,available,NULL,NULL,NULL
+37504447,"C# для профессионалов. Тонкости программирования","Джон Скит",598,2019,available,NULL,NULL,NULL
+52422566,"Изучаем C++ через программирование игр","Майкл Доусон",353,2016,available,NULL,NULL,NULL
+53406373,"React быстро","Азат Мардан",560,2017,available,NULL,NULL,NULL
+45356388,"Kotlin: программирование на примерах","Ияну Аделекан",434,2020,available,NULL,NULL,NULL
+37408778,"Регулярные выражения","Джеффри Фридл",608,2018,available,NULL,NULL,NULL
+67076353,"Алгоритмы на Java","Роберт Седжвик",845,2013,available,NULL,NULL,NULL
+75000129,"Выразительный JavaScript. Современное веб-программирование","Марейн Хавербеке",482,2019,available,NULL,NULL,NULL
+44816997,"Android. Программирование для профессионалов","Билл Филлипс, Кристин Марсикано",704,2021,available,NULL,NULL,NULL
+90759244,"HTML, JavaScript, PHP и MySQL. Джентльменский набор Web-мастера","Владимир Дронов, Николай Прохоренко",913,2019,available,NULL,NULL,NULL
+70660965,"SQL Cookbook: Query Solutions and Techniques for All SQL Users","Anthony Molinaro, Robert de Graaf",574,2020,available,NULL,NULL,NULL
+95580114,"Концепции и шаблоны проектирования сервисов потоковой обработки данных с использованием Apache Kafka","Бен Стопфорд",198,2019,available,NULL,NULL,NULL
+58288377,"C++ на примерах. Практика, практика и только практика","Орленко П.А.",290,2019,available,NULL,NULL,NULL

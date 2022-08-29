@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.hidden {
+    height: 0px;
+}
+/*Стиль для header*/
+header {
+    background-image: url("img/img1.jpg");
+}
+
+.site-header {
+    position: fixed;
+    background-color: #b5ffe0;
+    color: #1f7070;
+    width: 1280px;
+    height: 100px;
+}
+
+.site-header .container {
+    padding-top: 54px;
+    padding-bottom: 120px;
+    padding-left: 100px;
+    padding-right: 0px;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: "Courier New";
+    font-size: 45px;
+    line-height: 50px;
+    width: 244px;
+    height: 100px;
+}
+
+h2 {
+    font-family: "Courier New";
+    font-size: 24px;
+    line-height: 27px;
+}
+
+/*Стиль для меню в header*/
+.site-menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.site-menu a {
+    text-decoration: none;
+    display: block;
+    color: #176060;
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.site-menu a:hover {
+    color: #00ffb2;
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+/* Стиль для кнопки поиска в header*/
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -30%);
+    background: #278a8a;
+    height: 40px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+    color: rgb(0, 255, 178);
+}
+
+.search-btn {
+    color: #e6f60d;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #00ffb2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search-btn > i {
+    font-size: 20px;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #e6f60d;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+    width: 0px;
+    font-weight: bold;
+}
+
+.search-txt > placeholder {
+    color: whitesmoke;
+}
+
+/* Основной контент: меню книг по категориям и примеры книг */
+.site-main {
+    background-color: rgba(182, 255, 224, 0.28);
+    color: #1f7070;
+    width: 1280px;
+    height: auto;
+}
+
+.site-main .container {
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+    margin-right: 50px;
+}
+
+/* 1 - sidebar */
+.sidebar {
+    position: fixed;
+    width: 200px;
+    font-size: 14px;
+    line-height: 27px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.book-categories {
+    text-decoration: none;
+    list-style: none;
+}
+
+/* 1 - content */
+.content {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 160px;
+    min-height: 200px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+/*размер картинок и названий книг*/
+.modal-title {
+    font-size: 20px;
+    text-align: justify;
+    color: #131313;
+    font-weight: bold;
+}
+
+.modal-body {
+    font-size: 14px;
+    text-align: justify;
+    color: #131313;
+}
+
+.modal-body > ul > li {
+    text-decoration: none;
+}
+/* пагинация в центре */
+
+.center {
+    text-align: center;
+}
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+/* footer */
+footer {
+    background-image: url("img/img1.jpg");
+}
+
+.site-footer {
+    background-color: #b5ffe0;
+    color: #1f7070;
+    width: 1280px;
+    height: 200px;
+}
+
+.site-footer .container {
+    display: flex;
+    padding-top: 54px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    padding-right: 0px;
+    text-decoration: none;
+}
+
+.social_media {
+    display: block;
+    justify-content: center;
+}
+.social_media h3{
+    font-size: 20px;
+    color: #555555;
+}
+.contacts {
+    margin-left: 500px;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+

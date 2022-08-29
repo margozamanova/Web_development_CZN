@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesIndex.css">
+    <title>Библиотека</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header class="site-header">
+        <div class="container">
+            <ul class="site-menu">
+                <li><a href="index.html">Библиотека</a></li>
+                <li><a href="login.html">Вход</a></li>
+                <li><a href="profile.html">Избранное</a></li>
+            </ul>
+        </div>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="search-box">
+            <input type="text" name="text" class="search-txt" placeholder="Введите для поиска"/>
+            <a class="search-btn" href="#">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+        </div>
+    </header>
+    <main class="site-main">
+        <div class="container">
+            <div class="sidebar">
+                <h4>Книги по категориям</h4>
+                <ul class="book-categories">
+                    <li><a href="#">Python</a>
+                        <span class="count">(1)</span></li>
+                    <!--                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>-->
+                    <!--                    <textarea rows="10" cols="40" class="form-control">Lorem #ipsum dolor #sit amet #consectetur adipiscing</textarea>-->
+
+                    <!--                    <div class="remaining-counter">Hashtags Counted:&nbsp;&nbsp;<span class="well text-well">0</span></div>-->
+                    <li><a href="#">HTML/CSS, Javascript, PHP</a>
+                        <span class="count">(3)</span></li>
+<!--                    <li><a href="#">JavaScript</a>-->
+<!--                        <span class="count">$countWeb</span></li>-->
+                    <li><a href="#">C# и C++</a>
+                        <span class="count">(1)</span></li>
+                    <li><a href="#">Java</a>
+                        <span class="count">(1)</span></li>
+                    <li><a href="#">Другое</a>
+                        <span class="count">(1)</span></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="block">
+                    <p class="hidden">#Python</p>
+                    <img src="imgBooks/39323146.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_1">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_1"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_1">Прикладной анализ текстовых данных на
+                                        Python</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/39323146.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 39323146</p>
+                                    <p><b>Авторы:</b> Бенджамин Бенгфорт, Ребекка Билбро, Тони Охеда</p>
+                                    <p><b>Количество страниц:</b> 368</p>
+                                    <p><b>Год издания:</b> 2017</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Научитесь применять методы машинного обучения для анализа текста в реальных
+                                        задачах,
+                                        используя возможности и библиотеки Python. От поиска модели и предварительной
+                                        обработки данных вы перейдёте к приёмам классификации и кластеризации текстов,
+                                        затем приступите к визуальной интерпретации, анализу графов,
+                                        а после знакомства с приёмами масштабирования научитесь использовать глубокое
+                                        обучение для анализа текста.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Естественные языки и вычисления;</p>
+                                    <p>— Создание собственного корпуса, его предварительная подготовка;</p>
+                                    <p>— Классификация в текстовом анализе;</p>
+                                    <p>— Кластеризация для выявления сходств в тексте;</p>
+                                    <p>— Визуализация текста;</p>
+                                    <p>— Чат-боты.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Other</p>
+                    <img src="imgBooks/90707149.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_2">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_2"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_2">Программист-прагматик. Путь от
+                                        подмастерья к мастеру </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/90707149.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 90707149</p>
+                                    <p><b>Авторы:</b> Э. Хант, Д. Томас</p>
+                                    <p><b>Количество страниц:</b> 370</p>
+                                    <p><b>Год издания:</b> 2009</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Находясь на переднем крае программирования, эта книга абстрагируется от
+                                        всевозрастающей
+                                        специализации и технических тонкостей разработки программ на современном уровне,
+                                        чтобы исследовать суть процесса — требования к работоспособной и поддерживаемой
+                                        программе, приводящей пользователей в восторг. Книга охватывает различные темы —
+                                        от личной ответственности и карьерного роста до архитектурных методик, придающих
+                                        программам гибкость и простоту в адаптации и повторном использовании.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Борьба с недостатками ПО;</p>
+                                    <p>— Избегание ловушек, связанных с дублированием;</p>
+                                    <p>— Создание гибких, динамичных и адаптируемых программ;</p>
+                                    <p>— Защита своих программ при помощи контрактов, утверждений и исключений;</p>
+                                    <p>— Осуществление безжалостного и эффективного тестирования;</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Java</p>
+                    <img src="imgBooks/81200622.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_3">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_3"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_3">Структуры данных и алгоритмы Java </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/81200622.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 81200622</p>
+                                    <p><b>Авторы:</b> Роберт Лафоре</p>
+                                    <p><b>Количество страниц:</b> 703</p>
+                                    <p><b>Год издания:</b> 2013</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Второе издание одной из самых авторитетных книг по программированию посвящено
+                                        использованию
+                                        структур данных и алгоритмов. Первая часть книги представляет собой введение в
+                                        алгоритмизацию
+                                        и структуры данных, а также содержит изложение основ объектно-ориентированного
+                                        программирования.
+                                        Следующие части посвящены различным алгоритмам и структурам данных,
+                                        рассматриваемым от простого
+                                        к сложному: сортировка, абстрактные типы данных, связанные списки, рекурсия,
+                                        древовидные
+                                        структуры данных, хеширование, пирамиды, графы.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Python</p>
+                    <img src="imgBooks/54356317.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_4">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_4"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_4"> Python. Экспресс-курс</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/54356317.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 54356317</p>
+                                    <p><b>Авторы:</b> Наоми Седер</p>
+                                    <p><b>Количество страниц:</b> 480</p>
+                                    <p><b>Год издания:</b> 2019</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>С помощью этой книги вы можете быстро перейти от основ к управлению и структурам
+                                        данных, чтобы создавать, тестировать и развертывать полноценные приложения.
+                                        Наоми Седер рассказывает не только об основных особенностях языка Python,
+                                        но и его объектно-ориентированных возможностях, которые появились в Python 3.
+                                        Данное издание учитывает все изменения, которые произошли с языком за последние
+                                        5 лет, а последние 5 глав рассказывают о работе с большими данными.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— первые шаги;</p>
+                                    <p>— списки, кортежи, множества;</p>
+                                    <p>— функции и модули;</p>
+                                    <p>— работа с файлами;</p>
+                                    <p>— расширенные возможности языка;</p>
+                                    <p>— работа с данными.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Other</p>
+                    <img src="imgBooks/73940755.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_5">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_5"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_5">Первые 20 часов. Как быстро научиться...
+                                        чему угодно</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/73940755.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 73940755</p>
+                                    <p><b>Авторы:</b> Джош Кауфман</p>
+                                    <p><b>Количество страниц:</b> 384</p>
+                                    <p><b>Год издания:</b> 2019</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Автор книги, Джош Кауфман, утверждает, что за 20 часов правильно организованных
+                                        занятий
+                                        можно научиться любому делу. Лучшее доказательство тому — он сам.
+                                        Самоучка, не получивший классического бизнес-образования,
+                                        Джош — успешный предприниматель, выдающийся бизнес-тренер, основатель и
+                                        руководитель
+                                        интернет-проекта PersonalMBA.com
+
+                                        Эта книга описывает системный подход к приобретению новых навыков настолько
+                                        быстро,
+                                        насколько это возможно. Предлагаемый метод универсален.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#JavaScript</p>
+                    <img src="imgBooks/47853137.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_6">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_6"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_6">Секреты JavaScript ниндзя</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/47853137.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 47853137</p>
+                                    <p><b>Авторы:</b> Рейзиг Джон, Бибо Бэер</p>
+                                    <p><b>Количество страниц:</b> 207</p>
+                                    <p><b>Год издания:</b> 2016</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Во втором издании данной книги на многих практических примерах ясно
+                                        демонстрируется
+                                        каждое основное понятие или методика. Это издание было полностью переработано с
+                                        целью показать, как овладеть такими понятиями JavaScript, как функции,
+                                        замыкания, объекты, прототипы и обещания. В нем рассматриваются и такие понятия,
+                                        как модель DOM, события и таймеры, а также нормы передовой практики
+                                        программирования,
+                                        в том числе тестирование и разработка кросс-браузерного кода.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Other</p>
+                    <img src="imgBooks/45195315.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_7">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_7"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_7">Linux глазами хакера</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/45195315.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 45195315</p>
+                                    <p><b>Авторы:</b> Михаил Фленов</p>
+                                    <p><b>Количество страниц:</b> 418</p>
+                                    <p><b>Год издания:</b> 2019</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>В данной книге рассмотрены вопросы настройки ОС Linux на максимальную
+                                        производительность
+                                        и безопасность. Описано базовое администрирование и управление доступом,
+                                        настройка Firewall,
+                                        файлообменный сервер, WEB-, FTP- и Proxy-сервера, программы для доставки
+                                        электронной почты,
+                                        службы DNS, а также политика мониторинга системы и архивирование данных.
+                                        Перечислены
+                                        потенциальные уязвимости, даны рекомендации по предотвращению возможных атак и
+                                        показано,
+                                        как действовать при атаке или взломе системы, чтобы максимально быстро
+                                        восстановить
+                                        её работоспособность и предотвратить потерю данных.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— безопасность Linux;</p>
+                                    <p>— оптимизация ОС и сервисов;</p>
+                                    <p>— атаки хакеров на Linux;</p>
+                                    <p>— защита сервера от атак хакеров;</p>
+                                    <p>— примеры для CentOS и Ubuntu;</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Web</p>
+                    <img src="imgBooks/73396809.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_8">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_8"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_8">PHP. Рецепты программирования</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/73396809.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 73396809</p>
+                                    <p><b>Авторы:</b> Дэвид Скляр, Адам Трахтенберг</p>
+                                    <p><b>Количество страниц:</b> 785</p>
+                                    <p><b>Год издания:</b> 2016</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Третье издание популярной книги представляет собой подборку решений наиболее
+                                        распространённых задач на языке PНP.
+                                        Изложен материал, интересный каждому разработчику: базовые типы данных, операции
+                                        с ними, файлы cookie,
+                                        функции PНP, аутентификация пользователей, работа со слоями, проблемы
+                                        безопасности, ускорение действия
+                                        программ, работа в сети, создание графических изображений, обработка ошибок,
+                                        отладка сценариев и написание тестов.
+
+                                        Даны рецепты, затрагивающие основы объектно-ориентированного программирования и
+                                        новые функциональные
+                                        возможности РНР</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#CPP</p>
+                    <img src="imgBooks/37504447.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_9">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel_9"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_9">C# для профессионалов. Тонкости
+                                        программирования</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/37504447.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 37504447</p>
+                                    <p><b>Авторы:</b> Джон Скит</p>
+                                    <p><b>Количество страниц:</b> 598</p>
+                                    <p><b>Год издания:</b> 2019</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Цель книги — раскрытие новых средств языка C# 5, включая решение проблем, которые
+                                        связаны с написанием сопровождаемого асинхронного кода. </p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Язык C# как основа всех основ;</p>
+                                    <p>— Революционные изменения в доступе к данным;</p>
+                                    <p>— Лямбда-выражения и деревья выражений;</p>
+                                    <p>— Асинхронность с помощью async/await и многое другое.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#CPP</p>
+                    <img src="imgBooks/52422566.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_10">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_10" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_10"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_10">Изучаем C++ через программирование
+                                        игр</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/52422566.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 52422566</p>
+                                    <p><b>Авторы:</b> Майкл Доусон</p>
+                                    <p><b>Количество страниц:</b> 353</p>
+                                    <p><b>Год издания:</b> 2016</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Если вы хотите научиться программировать первоклассные игры, вам просто
+                                        необходимо изучить язык С++. Гораздо интересней учиться, когда обучение
+                                        превращается в игру.
+
+                                        Каждая глава книги описывает самостоятельный игровой проект. В заключительной
+                                        главе вам предстоит
+                                        написать сложную игру, которая объединяет все приемы программирования,
+                                        рассмотренные в предыдущих
+                                        главах. </p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Переменные, типы, ввод;</p>
+                                    <p>— Ветвление и циклы;</p>
+                                    <p>— Функции и библиотека стандартных шаблонов;</p>
+                                    <p>— Классы и ООП.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="pagination">
+                <a href="index.html">&laquo;</a>
+                <a class="active" href="index.html">1</a>
+                <a href="index2.html">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="index2.html">&raquo;</a>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="social_media">
+                <h3>Мы в социальных сетях</h3>
+                <a href="https://github.com/margozamanova/Web_development_CZN" id="git">
+                    <img src="img/git_icon.png" width="50" height="auto" alt="Ссылка на Гит">
+                </a>
+                <a href="https://t.me/ZhouMoli" id="telega">
+                    <img src="img/tg_qr.png" width="50" height="auto" alt="Ссылка на Телеграм">
+                </a>
+                <a href="https://codepen.io/margozamanova" id="codepen">
+                    <img src="img/codepen_icon.png" width="50" height="auto" alt="Ссылка на Codepen">
+                </a>
+                <!--                <li><a href="booking.html">Избранное</a></li>-->
+            </div>
+            <div class="contacts">
+                <ul class="site-menu">
+                    <li><a href="help.html">Написать нам</a></li>
+                    <li><a href="login.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

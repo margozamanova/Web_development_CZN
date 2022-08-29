@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.hidden {
+    height: 0px;
+}
+/*Стиль для header*/
+header {
+    background-image: url("img/img1.jpg");
+}
+
+.site-header {
+    position: fixed;
+    background-color: #b5ffe0;
+    color: #1f7070;
+    width: 1280px;
+    height: 100px;
+}
+
+.site-header .container {
+    padding-top: 54px;
+    padding-bottom: 120px;
+    padding-left: 100px;
+    padding-right: 0px;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-family: "Courier New";
+    font-size: 45px;
+    line-height: 50px;
+    width: 244px;
+    height: 100px;
+}
+
+h2 {
+    font-family: "Courier New";
+    font-size: 24px;
+    line-height: 27px;
+}
+
+/*Стиль для меню в header*/
+.site-menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.site-menu a {
+    text-decoration: none;
+    display: block;
+    color: #176060;
+    margin-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.site-menu a:hover {
+    color: #00ffb2;
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+
+.site-main-profile {
+    background-color: rgba(181, 255, 224, 0.28);
+    color: #1f7070;
+    width: 1280px;
+    height: 800px;
+}
+
+.site-main-profile .container {
+    display: block;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 0px;
+    margin-right: 50px;
+}
+
+
+
+/* 1 - content */
+.content {
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+/* footer */
+footer {
+    background-image: url("img/img1.jpg");
+}
+
+.site-footer {
+    background-color: #b5ffe0;
+    color: #1f7070;
+    width: 1280px;
+    height: 200px;
+}
+
+.site-footer .container {
+    display: flex;
+    padding-top: 54px;
+    padding-bottom: 120px;
+    padding-left: 50px;
+    padding-right: 0px;
+    text-decoration: none;
+}
+
+.social_media {
+    display: block;
+    justify-content: center;
+}
+.social_media h3{
+    font-size: 20px;
+    color: #555555;
+}
+.contacts {
+    margin-left: 500px;
+    justify-content: flex-end;
+}
+
+/* Таблица с данными пользователя */
+
+/* Таблица с данными о книгах в избранном */
+body {
+    margin: 0;
+    background: #F4F1F8;
+}
+table {
+    border-collapse: collapse;
+    line-height: 1.1;
+    font-family: "Courier New", sans-serif;
+    background:  radial-gradient(farthest-corner at 50% 50%, white, #DCECF8);
+    color: #0C213B;
+}
+caption {
+    font-family: annabelle, cursive;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+    color: #F3CD26;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.3);
+}
+caption:before, caption:after {
+    content: "\274B";
+    color: #A9E2CC;
+    margin: 0 10px;
+}
+th {
+    padding: 10px;
+    border: 1px solid #A9E2CC;
+    width: auto;
+    text-align: center;
+    text-indent: 15px;
+}
+td {
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid #A9E2CC;
+    text-align: center;
+    text-indent: 15px;
+}
+.first {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.myBooks {
+    margin-top: 50px;
+}
+
+.bookList {
+    width: auto;
+}
+
+
+
+

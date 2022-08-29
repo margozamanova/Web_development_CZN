@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesIndex.css">
+    <title>Библиотека</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header class="site-header">
+        <div class="container">
+            <ul class="site-menu">
+                <li><a href="index.html">Библиотека</a></li>
+                <li><a href="login.html">Вход</a></li>
+                <li><a href="profile.html">Избранное</a></li>
+            </ul>
+        </div>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="search-box">
+            <input type="text" name="text" class="search-txt" placeholder="Введите для поиска"/>
+            <a class="search-btn" href="#">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </a>
+        </div>
+    </header>
+    <main class="site-main">
+        <div class="container">
+            <div class="sidebar">
+                <h4>Книги по категориям</h4>
+                <ul class="book-categories">
+                    <li><a href="#">Python</a>
+                        <span class="count">(1)</span></li>
+                    <!--                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>-->
+                    <!--                    <textarea rows="10" cols="40" class="form-control">Lorem #ipsum dolor #sit amet #consectetur adipiscing</textarea>-->
+
+                    <!--                    <div class="remaining-counter">Hashtags Counted:&nbsp;&nbsp;<span class="well text-well">0</span></div>-->
+                    <li><a href="#">HTML/CSS, Javascript, PHP</a>
+                        <span class="count">(3)</span></li>
+<!--                    <li><a href="#">JavaScript</a>-->
+<!--                        <span class="count">$countWeb</span></li>-->
+                    <li><a href="#">C# и C++</a>
+                        <span class="count">(1)</span></li>
+                    <li><a href="#">Java</a>
+                        <span class="count">(1)</span></li>
+                    <li><a href="#">Другое</a>
+                        <span class="count">(1)</span></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="block">
+                    <p class="hidden">#Web</p>
+                    <img src="imgBooks/53406373.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_11">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_11" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_11"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_11">React быстро</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/53406373.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 53406373</p>
+                                    <p><b>Авторы:</b> Азат Мардан</p>
+                                    <p><b>Количество страниц:</b> 560</p>
+                                    <p><b>Год издания:</b> 2017</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Хотите быстро освоить React на понятных и объяснённых примерах? Эта книга для вас.
+                                        Так же она познакомит вас с форматом JSX и научит работе с однонаправленным потоком
+                                        данных и принципами декларативного программирования.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Основы Master React;</p>
+                                    <p>— Работа с данными и маршрутизацией;</p>
+                                    <p>— Тестовые компоненты;</p>
+                                    <p>— Условный рендеринг;</p>
+                                    <p>— Оптимизация приложений.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Java</p>
+                    <img src="imgBooks/45356388.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_12">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_12" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_12"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_12">Kotlin: программирование на примерах</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/45356388.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 45356388</p>
+                                    <p><b>Авторы:</b> Ияну Аделекан</p>
+                                    <p><b>Количество страниц:</b> 434</p>
+                                    <p><b>Год издания:</b> 2020</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Книга посвящена разработке мобильных приложений для Android на языке Kotlin.
+                                        Все знания даются на примерах игры Tetris, приложения Messenger и
+                                        веб-приложения Plae Reviewer.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Основы Kotlin, приёмы ООП;</p>
+                                    <p>— RESTful в Android;</p>
+                                    <p>— Фреймворк Spring Boot 2.0.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Other</p>
+                    <img src="imgBooks/37408778.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_13">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_13" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_13"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_13">Регулярные выражения</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/37408778.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 37408778</p>
+                                    <p><b>Авторы:</b> Джеффри Фридл</p>
+                                    <p><b>Количество страниц:</b> 608</p>
+                                    <p><b>Год издания:</b> 2018</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Книга Джеффри Фридла откроет перед вами секрет высокой производительности.
+                                        Ставшие стандартной возможностью во многих языках программирования и популярных
+                                        программных продуктах, включая Perl, PHP, Java, Python, Ruby, MySQL, VB .NET и C#,
+                                        регулярные выражения позволят вам автоматизировать сложную и тонкую обработку текста.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Принципы действия механизма регулярных выражений;</p>
+                                    <p>— Сравнение функциональных возможностей различных языков программирования и инструментальных средств;</p>
+                                    <p>— Оптимизация регулярных выражений;</p>
+                                    <p>— Разбор распространённых ошибок.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Java</p>
+                    <img src="imgBooks/67076353.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_14">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_14" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_14"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_14">Алгоритмы на Java</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/67076353.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 67076353</p>
+                                    <p><b>Авторы:</b> Роберт Седжвик</p>
+                                    <p><b>Количество страниц:</b> 845</p>
+                                    <p><b>Год издания:</b> 2013</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Классическая книга, которая задумана как обзор наиболее важных на сегодняшний
+                                        день компьютерных алгоритмов и как сборник фундаментальных приёмов.
+                                        Алгоритмы в данной книге представляют собой сборник основных знаний,
+                                        полученных за последние 50 лет и признанных незаменимыми.
+
+                                        Издание будет полезно студентам курсов вычислительной техники и людям,
+                                        желающим плавно «вкатиться» в эту область. Тем более в конце каждой главы
+                                        есть упражнения для практики.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Алгоритмы сортировки и поиска;</p>
+                                    <p>— Графы;</p>
+                                    <p>— Строки и контекст.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#JavaScript</p>
+                    <img src="imgBooks/75000129.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_15">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_15" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_15"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_15">Выразительный JavaScript. Современное веб-программирование</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/75000129.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 75000129</p>
+                                    <p><b>Авторы:</b> Марейн Хавербеке</p>
+                                    <p><b>Количество страниц:</b> 482</p>
+                                    <p><b>Год издания:</b> 2019</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Книга позволит глубоко погрузиться в тему, научиться писать красивый и эффективный код.
+                                        Автор сделал упор на практику и большое кол-во примеров.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Структура языка JavaScript;</p>
+                                    <p>— Управляющие структуры и структуры данных;</p>
+                                    <p>— Обработка ошибок в JavaScript;</p>
+                                    <p>— Модульность и асинхронное программирование.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Android</p>
+                    <img src="imgBooks/44816997.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_16">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_16" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_16"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_16">Android. Программирование для профессионалов</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/44816997.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 44816997</p>
+                                    <p><b>Авторы:</b> Билл Филлипс, Кристин Марсикано</p>
+                                    <p><b>Количество страниц:</b> 704</p>
+                                    <p><b>Год издания:</b> 2021</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Эта книга посвящена прикладным методам разработки приложений на Kotlin,
+                                        и подойдёт для всех версий Android от 5.0 (Lollipop) до 8.1 (Oreo) и выше.
+                                        Каждая глава продумана так, чтобы вы смогли получить максимум опыта и знания,
+                                        необходимые для разработки под Android.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— введение в разработку под Android;</p>
+                                    <p>— основы разработки и создание первого приложения;</p>
+                                    <p>— Andoid и модель MVC;</p>
+                                    <p>— отладка Android-приложения;</p>
+                                    <p>— UI-фрагменты, FragmentManager и многое другое.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Web</p>
+                    <img src="imgBooks/90759244.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_17">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_17" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_17"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_17">HTML, JavaScript, PHP и MySQL.
+                                        Джентльменский набор Web-мастера</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/90759244.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 90759244</p>
+                                    <p><b>Авторы:</b> Владимир Дронов, Николай Прохоренко</p>
+                                    <p><b>Количество страниц:</b> 913</p>
+                                    <p><b>Год издания:</b> 2019</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Довольно комплексная книга, которая предлагает  изучение не только клиентских технологий
+                                        (HTML, CSS, JаvaScript), но и серверных (РНР, MySQL).
+                                        Эти технологии могут существуют совместно, а значит изучать
+                                        их нужно как единое целое. </p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Основы HTML, CSS, JavaScript, MySQL и PHP;</p>
+                                    <p>— Разбор программного обеспечения web-сервера;</p>
+                                    <p>— AJAX.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#SQL</p>
+                    <img src="imgBooks/70660965.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_18">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_18" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_18"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_18">SQL Cookbook: Query Solutions and Techniques for All SQL Users</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/70660965.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 70660965</p>
+                                    <p><b>Авторы:</b>  Anthony Molinaro, Robert de Graaf</p>
+                                    <p><b>Количество страниц:</b> 574</p>
+                                    <p><b>Год издания:</b> 2020</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Книга посвящена SQL и решению ежедневных проблем с его использованием.
+                                        Вся эту информацию можно спокойно найти в Интернете, но авторы приложили усилия и
+                                        объединили всё для удобства в одном месте.</p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Получение записей, работа с очередями;</p>
+                                    <p>— Сортировка результатов запроса;</p>
+                                    <p>— Работа с несколькими таблицами;</p>
+                                    <p>— Вставка, обновления, удаление и так далее.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#Other</p>
+                    <img src="imgBooks/95580114.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_19">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_19" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_19"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_19">Концепции и шаблоны проектирования сервисов потоковой обработки данных с использованием Apache Kafka</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/95580114.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 95580114</p>
+                                    <p><b>Авторы:</b> Бен Стопфорд</p>
+                                    <p><b>Количество страниц:</b> 198</p>
+                                    <p><b>Год издания:</b> 2019</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Данная книга поможет всем заинтересованным ознакомиться с общими принципами
+                                        построения слабосвязанных событийно-ориентированных архитектур и раскроет
+                                        основные преимущества и недостатки применяемых подходов. </p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Основы потоковой обработки;</p>
+                                    <p>— Основы Kafka;</p>
+                                    <p>— Брокер Kafka;</p>
+                                    <p>— Проектирование событийно-ориентированных систем;</p>
+                                    <p>— Создание потоковых сервисов с помощью Kafka.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <p class="hidden">#CPP</p>
+                    <img src="imgBooks/58288377.jpg" width="150" height="215" alt="Java">
+                    <button class="btn btn-primary" data-toggle="modal" data-target="#myModal_20">Быстрый просмотр
+                    </button>
+                    <div class="modal fade" id="myModal_20" tabindex="-1" role="dialog"
+                         aria-labelledby="myModalLabel_20"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;
+                                    </button>
+                                    <h4 class="modal-title" id="myModalLabel_20">C++ на примерах. Практика, практика и только практика</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="imgBooks/58288377.jpg" width="300" height="auto" alt="Java">
+                                    <p><b>ISBN:</b> 58288377</p>
+                                    <p><b>Авторы:</b> Орленко П.А.</p>
+                                    <p><b>Количество страниц:</b> 290</p>
+                                    <p><b>Год издания:</b> 2019</p>
+                                    <p><b>Описание:</b></p>
+                                    <p>Эта книга является превосходным учебным пособием для изучения языка программирования
+                                        C++ на примерах. Отдельное внимание уделено программированию различных алгоритмов.
+                                        В книге используется большое количество примеров с подробным анализом кода: от простых
+                                        приложений для вывода текста на экран и проведения вычислений до клиент-серверного
+                                        приложения. </p>
+                                    <p><b>Основные темы:</b></p>
+                                    <p>— Типы и функции;</p>
+                                    <p>— Операторы и логический конструкции;</p>
+                                    <p>— Массивы, указатели и структуры;</p>
+                                    <p>— Работа с файлами;</p>
+                                    <p>— Объектно-ориентированное программирование.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    <button type="button" class="btn btn-primary">Добавить в избранное</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="pagination">
+                <a href="index.html">&laquo;</a>
+                <a  href="index.html">1</a>
+                <a class="active" href="index2.html">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="index3.html">&raquo;</a>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="social_media">
+                <h3>Мы в социальных сетях</h3>
+                <a href="https://github.com/margozamanova/Web_development_CZN" id="git">
+                    <img src="img/git_icon.png" width="50" height="auto" alt="Ссылка на Гит">
+                </a>
+                <a href="https://t.me/ZhouMoli" id="telega">
+                    <img src="img/tg_qr.png" width="50" height="auto" alt="Ссылка на Телеграм">
+                </a>
+                <a href="https://codepen.io/margozamanova" id="codepen">
+                    <img src="img/codepen_icon.png" width="50" height="auto" alt="Ссылка на Codepen">
+                </a>
+                <!--                <li><a href="booking.html">Избранное</a></li>-->
+            </div>
+            <div class="contacts">
+                <ul class="site-menu">
+                    <li><a href="help.html">Написать нам</a></li>
+                    <li><a href="login.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesProfile.css">
+    <title>Профиль пользователя</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header class="site-header">
+        <div class="container">
+            <ul class="site-menu">
+                <li><a href="index.html">Библиотека</a></li>
+                <li class="hidden"><a href="login.html">Вход</a></li>
+                <li class="hidden"><a href="profile.html">Избранное</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <main class="site-main-profile">
+        <div class="container">
+            <table>
+                <caption>Пользователь</caption>
+                <thead>
+                <tr>
+                    <th>№ читательского билета</th>
+                    <th>20220105038</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>Пароль</th>
+                    <td>+</td>
+                </tr>
+                </tfoot>
+                <tbody>
+                <tr>
+                    <th>Фамилия</th>
+                    <td>Иванов</td>
+                </tr>
+                <tr>
+                    <th>Имя</th>
+                    <td>Роман</td>
+                </tr>
+                <tr>
+                    <th>Отчество</th>
+                    <td>Алексеевич</td>
+                </tr>
+                </tbody>
+            </table>
+
+            <table class="myBooks">
+                <caption class="bookList">Книги для бронирования</caption>
+                <colgroup>
+                    <col span="2" style="background:Khaki"><!-- С помощью этой конструкции задаем цвет фона для первых двух столбцов таблицы-->
+                    <col style="background-color:LightCyan"><!-- Задаем цвет фона для следующего (одного) столбца таблицы-->
+                </colgroup>
+                <tr>
+                    <th>№ п/п</th>
+                    <th>ISBN</th>
+                    <th>Наименование книги  </th>
+                    <th>Авторы</th>
+                    <th>Год издания:</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>47853137</td>
+                    <td>Секреты JavaScript ниндзя  </td>
+                    <td>Рейзиг Джон, Бибо Бэер  </td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>47853137</td>
+                    <td>Секреты JavaScript ниндзя  </td>
+                    <td>Рейзиг Джон, Бибо Бэер  </td>
+                    <td>2016</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>47853137</td>
+                    <td>Секреты JavaScript ниндзя  </td>
+                    <td>Рейзиг Джон, Бибо Бэер  </td>
+                    <td>2016</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="social_media">
+                <h3>Мы в социальных сетях</h3>
+                <a href="https://github.com/margozamanova/Web_development_CZN" id="git">
+                    <img src="img/git_icon.png" width="50" height="auto" alt="Ссылка на Гит">
+                </a>
+                <a href="https://t.me/ZhouMoli" id="telega">
+                    <img src="img/tg_qr.png" width="50" height="auto" alt="Ссылка на Телеграм">
+                </a>
+                <a href="https://codepen.io/margozamanova" id="codepen">
+                    <img src="img/codepen_icon.png" width="50" height="auto" alt="Ссылка на Codepen">
+                </a>
+                <!--                <li><a href="booking.html">Избранное</a></li>-->
+            </div>
+            <div class="contacts">
+                <ul class="site-menu">
+                    <li><a href="help.html">Написать нам</a></li>
+                    <li><a href="login.html">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
